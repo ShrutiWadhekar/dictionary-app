@@ -43,7 +43,7 @@ public class DictionaryAppWithSecurityV1Application {
 		
 		// Uncomment the line below if default user is not added into the database.
 		// Comment this line if you are running the application second time OR it will give error because username has unique constraint
-		// userDetailsRepo.save(user);
+		userDetailsRepo.save(user);
 	}
 
 	private Authority createAuthority(String roleCode) {
