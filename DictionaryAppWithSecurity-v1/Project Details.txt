@@ -1,0 +1,120 @@
+
+Frontend Application(React js App):
+dictionary-app.zip
+
+Backend Application(Spring Boot App):
+DictionaryAppWithSecurity-v1.zip
+
+============================================================================================================================================================
+
+How to run the Application:
+
+Backend:
+1. Place the zip file DictionaryAppWithSecurity-v1.zip into the workspace directory of Spring tool suite.
+2. Extract the zip file
+3. Open Spring Tool Suite and Open this project in it.
+4. Run as Spring boot project.
+
+Frontend:
+1. Place zip file dictionary-app.zip into the workspace directory of VS Code.
+2. Extract the zip file.
+3. Open folder in VS Code
+4. Open new terminal, Go to the project directory.
+5. Type command npm start
+
+I have added one Admin already into the database with following credentials:
+(Use the following credentials for initial login)
+username : shruti
+password : check@123
+
+
+################################################################### IMPORTANT #############################################################################
+Through main method I have added a user with admin database. who can further assign ADMIN role to other users. If you are running the spring boot application for the second time, then please comment the line no 44 in class DictionaryAppWithSecurityV1Application.java in com.example.demo package. As the username has unique key constraint and it will give you error as second time running of code will try to add the same user again into database.
+###########################################################################################################################################################
+
+
+################################################################### IMPORTANT #############################################################################
+Please refer to data present in another file called "Input Details.txt" as initially no data will be there in the table in your system.
+Add data using "AddKeyword" bu loggin in as Admin.
+###########################################################################################################################################################
+
+
+
+When new user is registered, then by default user is given the "USER" Role.
+Admin priviledges can be granted to any User by the user who already has the "ADMIN" role.
+
+If you login using Admin credentials, you will see Admin home page and if you login using the credentials of a user having onlt "USER" credentials then user home page will be visible to you.
+
+
+#################################################################### IMPORTANT ##########################################################################
+Note : If some information is not getting loaded on the browser, try to refresh the page. It will be loaded after refreshing.
+#########################################################################################################################################################
+
+
+
+============================================================================================================================================================
+
+Dependencies Added in Spring:
+1. Spring Web
+2. Spring Data JPA
+3. H2 Database
+4. Spring Security
+5. Jwt
+
+============================================================================================================================================================
+
+How to Access Database:
+1. Check the application.properties file present in project directory inside src/main/resources
+2. Open any browser
+3. Go to "http://localhost:8081/h2-console"  (port 8081 is used in project)
+4. Give URL input as present in application.properties file
+5. Provide username and password as "root" (As mentioned in application.properties)
+6. Press Connect. Now you can see all the created tables.
+
+============================================================================================================================================================
+
+
+Implementation Details:
+
+
+Backend (Spring)
+DictionaryAppWithSecurity-v1.zip
+
+com.example.demo contains main class.
+So here I have used init method to add a user initially who will be admin. 
+
+In com.example.demo.model package I have 4 pojo classes
+Authority, Keyword, RegisterUser and User.
+
+Also I have Pojo classes in com.example.demo.requests and com.example.demo.response packages for request and response purpose.
+
+Controllers:
+Appcontroller.java and AuthenticationController.java are used for USER operations - login, register, delete user, grant admin access, revoke admin access, view user details, see all users, etc.
+
+KeywordController.java is used for keyword operations - add, edit, delete, view keyword, view list of keywords.
+
+Configurations
+com.example.demo.config package has 4 java classes for the configuration of spring security. UserDetails and UserDetailsService interfaces are used to implement spring security.
+I have used JWT authentication token for the security purpose, So that whenever the user will provide username and password on first page, it will generate the token and that token will be added in the Authorization header for the further pages, So it eliminated the need of entering username and password again and again for every page.
+In SecurityConfiguration.java class, which role has access to what url is specified.
+
+com.example.demo.repo package contains interface which implements JPA Repository and the implementations are present in the com.example.demp.service package.
+
+
+
+
+FrontEnd
+dictionary-app.zip
+I have used react js for front end
+src/Components/Keyword has all the pages related to keyword functions
+
+src/Components/UserFunctions has all the pages related to user functions
+
+src/Components has the welcome page, home pages for admin and user, login, logout and register page.
+
+src/Services has 2 files
+AuthService.java - for all the user related api calls
+DictinaryService.java - for all the keyword related api calls
+
+
+
