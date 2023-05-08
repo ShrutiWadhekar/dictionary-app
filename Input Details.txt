@@ -1,0 +1,122 @@
+USERS:
+username : shruti
+password : check@123
+
+
+============================================================================================================================================================
+
+(You can use following data)
+(URL format can be like given below) 
+KEYWORD DATA :
+
+{
+    "id": 1,
+    "name": "Java",
+    "inventor": "James Gosling",
+    "inventionyear": 1995,
+    "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. Compiled Java code can run on all platforms that support Java without the need for recompilation.",
+    "advantages": "Java is platform-independent.Java is a simple programming language since it is easy to learn and easy to understand. Java uses an object-oriented paradigm, which makes it more practical.",
+    "disadvantages": "Verbose and Complex codes. Java program consumes more memory since it runs on top of Java virtual machine. Java provides automatic garbage collection.",
+    "url1": "https://st2.depositphotos.com/4021139/7527/i/950/depositphotos_75272709-stock-photo-java-concept.jpg",
+    "url2": "https://cdn.pixabay.com/photo/2014/04/03/11/08/tea-311844__340.png",
+    "url3": "https://cdn.pixabay.com/photo/2016/07/13/08/48/mobile-phone-1513945__480.jpg",
+    "url4": "https://cdn.pixabay.com/photo/2015/03/26/10/40/coffee-beans-691761__340.jpg",
+    "url5": "https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536__340.jpg",
+    "url6": ""
+}
+
+
+{
+    "id": 3,
+    "name": "Blockchain",
+    "inventor": "Satoshi Nakamoto",
+    "inventionyear": 2008,
+    "description": "A blockchain is a decentralized ledger of all transactions across a peer-to-peer network.",
+    "advantages": "Blockchain technology is highly secure because of the reason each and every individual who enters into the Blockchain network is provided with a unique identity which is linked to his account.",
+    "disadvantages": "The consumption of power in the Blockchain is comparatively high.",
+    "url1": "https://cdn.pixabay.com/photo/2018/12/02/10/07/web-3850917__340.jpg",
+    "url2": "https://cdn.pixabay.com/photo/2018/07/03/07/09/block-chain-3513216__340.jpg",
+    "url3": "https://cdn.pixabay.com/photo/2018/03/31/05/06/blockchain-3277335__340.png",
+    "url4": "https://cdn.pixabay.com/photo/2018/07/14/11/33/earth-3537401__480.jpg",
+    "url5": "https://cdn.pixabay.com/photo/2018/01/17/20/22/analytics-3088958__340.jpg",
+    "url6": "https://cdn.pixabay.com/photo/2021/09/06/12/40/cryptocurrency-6601591__340.jpg"
+}
+
+
+{
+    "id": 4,
+    "name": "C",
+    "inventor": "Dennis Ritchie",
+    "inventionyear": 1970,
+    "description": "C is a procedural programming language.Features of C are low-level memory access, a simple set of keywords, and a clean style, So it is suitable for system programmings like an operating system or compiler development.",
+    "advantages": "C is a robust language as it contains many data types and operators. C is very flexible, or we can say machine independent that helps you to run your code on any machine.",
+    "disadvantages": "C does not support the concept of OOPs. The errors or the bugs aren’t detected after each line of code. Instead, the compiler shows all the errors after writing the program.",
+    "url1": "https://cdn.pixabay.com/photo/2012/04/14/12/45/english-33781__340.png",
+    "url2": "https://cdn.pixabay.com/photo/2014/10/05/19/02/binary-code-475664__340.jpg",
+    "url3": "https://cdn.pixabay.com/photo/2014/09/18/22/42/letters-451489__340.jpg",
+    "url4": "https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024__340.jpg",
+    "url5": "https://cdn.pixabay.com/photo/2012/10/29/15/36/ball-63527__340.jpg",
+    "url6": "https://cdn.pixabay.com/photo/2016/11/19/22/52/coding-1841550__340.jpg"
+}
+
+
+
+
+
+
+
+{
+    "id": 5,
+    "name": "Cloud Computing",
+    "inventor": "Joseph Carl Robnett Licklider",
+    "inventionyear": 2006,
+    "description": "Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user.",
+    "advantages": "Once the data is stored in the cloud, it is easier to get back-up and restore that data using the cloud. Cloud applications improve collaboration by allowing groups of people to quickly and easily share information in the cloud via shared storage.",
+    "disadvantages": "cloud infrastructure is completely owned, managed, and monitored by the service provider, so the cloud users have less control over the function and execution of services within a cloud infrastructure.",
+    "url1": "https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637__480.jpg",
+    "url2": "https://cdn.pixabay.com/photo/2021/08/01/19/00/cloud-6515064__340.jpg",
+    "url3": "https://cdn.pixabay.com/photo/2020/02/15/14/33/network-4851119__340.jpg",
+    "url4": "https://cdn.pixabay.com/photo/2018/05/16/18/16/cloud-3406627__340.jpg",
+    "url5": "https://cdn.pixabay.com/photo/2017/01/18/10/01/cloud-computing-1989339__340.png",
+    "url6": "https://cdn.pixabay.com/photo/2016/10/16/15/40/download-1745473__340.png"
+}
+
+
+
+{
+    "id": 6,
+    "name": "DevOps",
+    "inventor": "Patrick Debois",
+    "inventionyear": 2009,
+    "description": "DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.",
+    "advantages": "It helps to detect any problems at the stage of coding. Automatic testing allows developers to fix the detected bugs as soon as possible without waiting for manual testing.",
+    "disadvantages": "DevOps is not based on a few practices that you can adopt or abandon whenever desired. It is a complete framework, a work culture that cannot be simply implemented by following a Software Development Life Cycle (SDLC).",
+    "url1": "https://cdn.pixabay.com/photo/2018/02/12/13/58/devops-3148393__480.png",
+    "url2": "https://cdn.pixabay.com/photo/2018/02/15/18/29/devops-3155972__340.jpg",
+    "url3": "https://image.freepik.com/free-vector/artificial-intelligence-robots-cyborg-with-infinity-symbol_107791-4668.jpg",
+    "url4": "",
+    "url5": "",
+    "url6": ""
+}
+
+{
+    "id": 7,
+    "name": "Artificial Intelligence",
+    "inventor": "John McCarthy",
+    "inventionyear": 1943,
+    "description": "Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision.",
+    "advantages": "One of the biggest advantages of Artificial Intelligence is that it can significantly reduce errors and increase accuracy and precision.",
+    "disadvantages": "A big disadvantage of AI is that it cannot learn to think outside the box. AI is capable of learning over time with pre-fed data and past experiences, but cannot be creative in its approach.",
+    "url1": "https://cdn.pixabay.com/photo/2015/03/08/09/30/head-663997__340.jpg",
+    "url2": "https://cdn.pixabay.com/photo/2019/10/15/05/15/quantum-physics-4550602__340.jpg",
+    "url3": "https://cdn.pixabay.com/photo/2017/05/10/19/29/robot-2301646__340.jpg",
+    "url4": "https://cdn.pixabay.com/photo/2019/08/06/22/48/artificial-intelligence-4389372__340.jpg",
+    "url5": "https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507__480.jpg",
+    "url6": ""
+}
+
+
+sites used for images: 
+pixabay
+Unsplash
+Pexels
